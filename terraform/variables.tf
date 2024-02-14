@@ -21,3 +21,9 @@ variable "arm_tenant_id" {
   description = "Azure tenant id"
   default     = "61f30b8e-4f6b-44fe-9bc2-041e3a9f7346"
 }
+
+variable "username" {
+  type            = string
+  description     = "Name of the VM username"
+  default         = "CTW03467"
+} 

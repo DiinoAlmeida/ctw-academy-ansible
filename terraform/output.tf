@@ -1,5 +1,5 @@
 output "public_ip_address" {
-  value = azurerm_linux_virtual_machine.myterraformvm.public_ip_address
+  value = azurerm_linux_virtual_machine.my_tf_vm.public_ip_address
 }
 
 output "account_id" {
@@ -7,5 +7,5 @@ output "account_id" {
 }
 
 output "fqdn" {
-  value = azurerm_public_ip.myterraformpublicip.fqdn
+  value = azurerm_public_ip.my_tf_public_ip
 }
